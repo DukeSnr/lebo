@@ -13,10 +13,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #f8f9fa;
-    padding: 40px 20px;
+    padding: 20px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
+
+
   .navbar .logo {
     font-size: 20px;
     font-weight: bold;
@@ -33,10 +35,15 @@ body {
     color: #007bff;
   }
   
+/* Button in Navbar */
+.navbar .btn {
+    margin: 0 0 0 15px; /* Add spacing to separate from the nav links */
+  }
+
   /* Banner Section */
   .banner {
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 70px;
     background-color: #ffffff;
   }
   
@@ -44,7 +51,7 @@ body {
     border-radius: 50%; /* Keeps the image round */
     width: 200px; /* Adjust the width */
     height: 200px; /* Adjust the height */
-    margin-left: 20px; /* Keeps spacing consistent */
+    margin-left: 50px; /* Keeps spacing consistent */
   }
   
   
@@ -81,7 +88,7 @@ body {
 /* Button Link */
 .btn a {
   display: inline-block; /* Makes the link behave like a button */
-  padding: 12px 24px; /* Adds spacing inside the button */
+  padding: 12px 54px; /* Adds spacing inside the button */
   color: white; /* Button text color */
   background-color: #007bff; /* Button background color (blue) */
   border: 2px solid #007bff; /* Button border */

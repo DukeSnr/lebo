@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #423b3b;
+    color: whitesmoke;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #423b3b;
+    padding: 30px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 40px;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  
+  /* Banner Section */
+  .home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0a0a0a;
+  }
+  
+  .home img {
+    border-radius: 50%; /* Keeps the image round */
+    width: 200px; /* Adjust the width */
+    height: 200px; /* Adjust the height */
+    margin-left: 20px; /* Keeps spacing consistent */
+  }
+  
+  
+  .home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .home p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* About Section */
+  .about {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .about h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Button Container */
+  .btn a {
+    text-align: center; /* Centers the group of buttons */
+    margin: 20px 0; /* Adds spacing around the buttons */
+    display: flex; /* Use flexbox to arrange buttons in a row */
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  /* Button Link */
+  .btn a {
+    display: inline-block; /* Makes the link behave like a button */
+    padding: 12px 24px; /* Adds spacing inside the button */
+    color: white; /* Button text color */
+    background-color: #007bff; /* Button background color (blue) */
+    border: 2px solid #007bff; /* Button border */
+    border-radius: 5px; /* Slightly rounded corners */
+    text-decoration: none; /* Removes underline from the link */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover Effect */
+  .btn a:hover {
+    background-color: white; /* Change background to white */
+    color: #007bff; /* Change text color to blue */
+    border-color: #007bff; /* Keeps border blue */
+  }
+  
+  /* Button Container */
+  .btn b {
+    text-align: center; /* Centers the group of buttons */
+    margin: 20px 0; /* Adds spacing around the buttons */
+    padding-left: 50px;
+    display: flex; /* Use flexbox to arrange buttons in a row */
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  /* Button Link */
+  .btn b {
+    display: inline-block; /* Makes the link behave like a button */
+    padding: 12px 24px; /* Adds spacing inside the button */
+    color: white; /* Button text color */
+    background-color: #007bff; /* Button background color (blue) */
+    border: 2px solid #007bff; /* Button border */
+    border-radius: 5px; /* Slightly rounded corners */
+    text-decoration: none; /* Removes underline from the link */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover Effect */
+  .btn a:hover {
+    background-color: white; /* Change background to white */
+    color: #007bff; /* Change text color to blue */
+    border-color: #007bff; /* Keeps border blue */
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background: #333;
+    width: 100%;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+    /*service cards*/
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      background-color: #1d4031; /* Dark green background */
+      padding: 20px;
+      border-radius: 15px; /* Rounded corners */
+    }
+    
+    .box {
+      width: 45%;
+      background-color: whitesmoke; /* Slightly lighter green */
+      padding: 20px;
+      border-radius: 15px;
+    }
+    
+    .box-others {
+      width: 45%;
+      background-color: grey; /* Darker for the others section */
+      padding: 20px;
+      border-radius: 15px;
+      border: 1px solid gray; /* Optional */
+    }
+    
+    .text-content {
+      color: black; /* White text */
+      font-family: Arial, sans-serif;
+    }
+    
+    .icon {
+      margin-right: 10px;
+    }
+    
+    .check {
+      color: green; /* For checkmarks */
+    }
+    
+    .cross {
+      color: red; /* For crosses */
+    }
+  
+  }
